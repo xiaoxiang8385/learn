@@ -13,6 +13,7 @@ public class Hello extends UnicastRemoteObject implements IHello {
     public int helloWorld(){
         System.out.println("Hello!");
         return ++index;
+        
     }
    
     public static void main(String[] args) {
