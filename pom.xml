@@ -85,7 +85,6 @@
 
 
 	<build>
-		<outputDirectory>${basedir}/WebRoot/WEB-INF/classes</outputDirectory>
 		<pluginManagement>
 			<plugins>
 				<plugin>
