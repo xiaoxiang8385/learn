@@ -23,7 +23,7 @@ public class SayHiServiceImp implements SayHiService {
 
     @Override
     public void SayHi(String name) {
-        System.out.println("Hi, " + name + "!");
+    	System.out.println("Hi, " + name + "!");
     }
 
     @Override
