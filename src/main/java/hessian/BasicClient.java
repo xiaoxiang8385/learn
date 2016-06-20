@@ -18,10 +18,12 @@ public class BasicClient {
 		
 		String url = "http://localhost:8080/hessian/hello";
 
+		
 		HessianProxyFactory factory = new HessianProxyFactory();
-		BasicAPI basic = (BasicAPI) factory.create(BasicAPI.class, url);
 
 		for(int i =0; i < 5; i++){
+			
+			BasicAPI basic = (BasicAPI) factory.create(BasicAPI.class, url);
 			System.out.println("hello(): " + basic.hello());
 		}
 	}

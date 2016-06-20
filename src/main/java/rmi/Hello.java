@@ -15,12 +15,11 @@ public class Hello extends UnicastRemoteObject implements IHello {
         return ++index;
         
     }
-   
-    public static void main(String[] args) {
-    	 String a = new String("a");
-    	 String b = "a";
-    	 Object d = a;
-    	 System.out.println(a.hashCode());
-    	 System.out.println(b.hashCode());
-     	}
+    
+    
+	@Override
+	public void update(Student student) throws RemoteException {
+		student.setAge(99);
+		student.setName("hhh");
+	}
 }

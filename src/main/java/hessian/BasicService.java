@@ -1,7 +1,5 @@
 package hessian;
 
-import java.rmi.RemoteException;
-
 import com.caucho.hessian.server.HessianServlet;
 
 /**
