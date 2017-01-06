@@ -1,4 +1,4 @@
-package myStaticProxy;
+package ms_proxy;
 
 /**
  * 真实对象和代理对象的共同接口

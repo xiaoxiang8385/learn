@@ -1,4 +1,4 @@
-package myStaticProxy;
+package ms_proxy;
 
 /**
  * 真实角色
