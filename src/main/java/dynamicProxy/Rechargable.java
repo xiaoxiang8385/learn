@@ -1,4 +1,4 @@
-package myDynamicProxy;
+package dynamicProxy;
 
 /**
  * 可充电设备接口

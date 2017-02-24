@@ -1,4 +1,4 @@
-package myCGlib;
+package cglib;
 /** 
  * 被代理类，即目标对象target 
  *  

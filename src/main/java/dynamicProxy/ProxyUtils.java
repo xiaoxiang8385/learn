@@ -1,4 +1,4 @@
-package myDynamicProxy;
+package dynamicProxy;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

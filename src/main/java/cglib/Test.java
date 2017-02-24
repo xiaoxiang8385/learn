@@ -1,4 +1,4 @@
-package myCGlib;
+package cglib;
 /** 
  * @author typ 
  * 

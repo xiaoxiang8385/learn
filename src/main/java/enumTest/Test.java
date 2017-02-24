@@ -1,4 +1,4 @@
-package myEnum;
+package enumTest;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package myDynamicProxy;
+package dynamicProxy;
 
 /**
  * 交通工具接口

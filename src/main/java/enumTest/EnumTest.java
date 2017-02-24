@@ -1,4 +1,4 @@
-package myEnum;
+package enumTest;
 
 /**
  * 枚举测试类
